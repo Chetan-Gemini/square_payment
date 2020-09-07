@@ -1,0 +1,1989 @@
+Started GET "/" for 127.0.0.1 at 2020-09-05 21:36:05 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+DEPRECATION WARNING: autoprefixer-rails was deprected. Migration guide:
+https://github.com/ai/autoprefixer-rails/wiki/Deprecated (called from _app_views_layouts_application_html_erb___2905743293065883120_47341114978820 at /home/chetan/Documents/square_payment/app/views/layouts/application.html.erb:8)
+Completed 200 OK in 4796ms (Views: 4791.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-05 21:37:08 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-05 21:38:25 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 59ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-05 21:38:28 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-05 21:40:07 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-05 21:41:18 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 25ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-05 21:41:42 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-05 21:41:54 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 33ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-05 21:49:13 +0530
+Processing by HomeController#index as */*
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+DEPRECATION WARNING: autoprefixer-rails was deprected. Migration guide:
+https://github.com/ai/autoprefixer-rails/wiki/Deprecated (called from _app_views_layouts_application_html_erb___2274809933777807447_69824056185040 at /home/chetan/Documents/square_payment/app/views/layouts/application.html.erb:18)
+Completed 500 Internal Server Error in 2838ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( sq-payment-form.css )` to `config/initializers/assets.rb` and restart your server):
+    15:     <% else %>
+    16:       <%= javascript_include_tag 'application', 'https://js.squareupsandbox.com/v2/paymentform', 'data-turbolinks-track' => true%>
+    17:     <% end %>
+    18:     <%= stylesheet_link_tag 'application', 'sq-payment-form', 'data-turbolinks-track' => true %>
+    19:     <%= javascript_include_tag 'application', 'sq-payment-form', 'data-turbolinks-track' => true %>
+    20:   </head>
+    21: 
+  
+app/views/layouts/application.html.erb:18:in `_app_views_layouts_application_html_erb___2274809933777807447_69824056185040'
+Started GET "/" for 127.0.0.1 at 2020-09-05 21:49:18 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 79ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( sq-payment-form.css )` to `config/initializers/assets.rb` and restart your server):
+    15:     <% else %>
+    16:       <%= javascript_include_tag 'application', 'https://js.squareupsandbox.com/v2/paymentform', 'data-turbolinks-track' => true%>
+    17:     <% end %>
+    18:     <%= stylesheet_link_tag 'application', 'sq-payment-form', 'data-turbolinks-track' => true %>
+    19:     <%= javascript_include_tag 'application', 'sq-payment-form', 'data-turbolinks-track' => true %>
+    20:   </head>
+    21: 
+  
+app/views/layouts/application.html.erb:18:in `_app_views_layouts_application_html_erb___2274809933777807447_69823927538560'
+Started GET "/" for 127.0.0.1 at 2020-09-05 21:49:52 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( sq-payment-form.css )` to `config/initializers/assets.rb` and restart your server):
+    15:     <% else %>
+    16:       <%= javascript_include_tag 'application', 'https://js.squareupsandbox.com/v2/paymentform', 'data-turbolinks-track' => true%>
+    17:     <% end %>
+    18:     <%= stylesheet_link_tag 'application', 'sq-payment-form', 'data-turbolinks-track' => true %>
+    19:     <%= javascript_include_tag 'application', 'sq-payment-form', 'data-turbolinks-track' => true %>
+    20:   </head>
+    21: 
+  
+app/views/layouts/application.html.erb:18:in `_app_views_layouts_application_html_erb___2274809933777807447_69824091380220'
+Started GET "/" for 127.0.0.1 at 2020-09-05 21:50:02 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 210ms (Views: 205.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-05 21:51:02 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 66ms (Views: 64.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-05 21:51:53 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 205ms (Views: 200.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-05 21:53:00 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 74ms (Views: 72.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-05 21:53:49 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 99ms (Views: 98.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-05 21:54:53 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 87ms (Views: 86.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-05 21:55:13 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 76ms (Views: 75.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-05 21:56:08 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 49ms (Views: 47.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-05 21:56:27 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 224ms (Views: 220.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-05 21:56:40 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 57ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-05 21:56:54 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 42ms (Views: 41.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 00:45:47 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 447ms (Views: 421.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 00:48:13 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 274ms (Views: 272.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 00:48:33 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 114ms (Views: 113.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 00:50:08 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.9ms)
+DEPRECATION WARNING: autoprefixer-rails was deprected. Migration guide:
+https://github.com/ai/autoprefixer-rails/wiki/Deprecated (called from _app_views_layouts_application_html_erb___2083331063385797922_47070868912900 at /home/chetan/Documents/square_payment/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 6790ms (Views: 6774.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 00:51:02 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (101.6ms)
+Completed 500 Internal Server Error in 104ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `>' for nil:NilClass):
+    28:       </div>
+    29: 
+    30:       <div>
+    31:         <% if @cards&.size > 0 %>
+    32:           <table>
+    33:             <tbody>
+    34:               <% @cards.each do |card|  %>
+  
+app/views/home/index.html.erb:31:in `_app_views_home_index_html_erb__1924855750021848674_70028368250440'
+Started GET "/" for 127.0.0.1 at 2020-09-06 00:51:47 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 50ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 00:53:16 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 40ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 00:56:39 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 48ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 00:56:58 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 102ms (Views: 101.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 00:57:07 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 91ms (Views: 90.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 00:57:32 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 31698ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:02:44 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 5393ms (Views: 243.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:04:30 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 12821ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:05:29 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:15:12 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 812ms (Views: 749.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:15:22 +0530
+Processing by HomeController#index as */*
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 49ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:16:21 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 147ms (Views: 145.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:16:48 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 101ms (Views: 100.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:16:57 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 40ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:17:08 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 104ms (Views: 103.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:17:15 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 97ms (Views: 96.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:17:20 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 65ms (Views: 64.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:17:53 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 93ms (Views: 92.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:21:33 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 82ms (Views: 80.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:22:20 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 257ms (Views: 256.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:22:36 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:23:11 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 31ms (Views: 30.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:23:42 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:24:17 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 196ms (Views: 195.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:24:30 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:35:20 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 188ms (Views: 187.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:38:06 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 40ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:40:10 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 145ms (Views: 144.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:40:45 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 33ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:41:31 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:41:47 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 43ms (Views: 41.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:45:10 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 34ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:47:45 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+DEPRECATION WARNING: autoprefixer-rails was deprected. Migration guide:
+https://github.com/ai/autoprefixer-rails/wiki/Deprecated (called from _app_views_layouts_application_html_erb__24383202209405587_70037964917040 at /home/chetan/Documents/square_payment/app/views/layouts/application.html.erb:19)
+Completed 200 OK in 3521ms (Views: 3519.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:48:10 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 34ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:50:23 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 765ms (Views: 764.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:50:58 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 41ms (Views: 39.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:52:48 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 31ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:53:08 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 32ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:53:58 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 28ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:55:01 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 30ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:55:19 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 24ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:55:38 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:56:13 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 37ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:56:46 +0530
+Processing by HomeController#index as */*
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 66ms (Views: 58.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 01:59:29 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 775ms (Views: 774.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:01:43 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 1914ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:03:26 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 1445ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:04:21 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 1164ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:05:09 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 1562ms (Views: 44.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:05:39 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 1183ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:05:59 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 1138ms (Views: 47.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:11:40 +0530
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1718ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `api_client' for #<HomeController:0x00007f65fcd1e368>):
+  
+app/controllers/home_controller.rb:11:in `index'
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:11:58 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 2340ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:12:54 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (24.6ms)
+Completed 200 OK in 2297ms (Views: 66.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:14:22 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (26.9ms)
+Completed 200 OK in 3023ms (Views: 724.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:15:16 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (18.9ms)
+Completed 200 OK in 2043ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:16:23 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (19.7ms)
+Completed 200 OK in 2475ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:17:01 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (24.3ms)
+Completed 200 OK in 2357ms (Views: 55.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:17:15 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 2301ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:20:26 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1826.1ms)
+Completed 200 OK in 3997ms (Views: 1853.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:21:31 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (32.1ms)
+Completed 200 OK in 2090ms (Views: 56.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:22:14 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (34.3ms)
+Completed 200 OK in 2368ms (Views: 56.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:22:36 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (33.9ms)
+Completed 200 OK in 2387ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:24:14 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 2614ms (Views: 40.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:24:40 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (34.7ms)
+Completed 200 OK in 2258ms (Views: 61.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:25:24 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 2069ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:27:23 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (33.1ms)
+Completed 200 OK in 2569ms (Views: 63.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:33:36 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (27.7ms)
+Completed 200 OK in 2330ms (Views: 67.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:34:26 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 1881ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:35:02 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (33.2ms)
+Completed 200 OK in 2322ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:40:05 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (39.0ms)
+Completed 200 OK in 2791ms (Views: 664.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 02:40:26 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"585800", "card_nonce"=>"ccof:63ffscxVuvn96IBV4GB", "nonce"=>"", "nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:926:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":676963,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,0,5s53sro6,2,1;fg,0,nzbhag,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;ss,0,nzbhag;xq,606;xq,25p;xq,212;xq,102;xq,4s1;xq,op;xq,158;so,2,nzbhag;zz,1no,133,92,nzbhag;zzf,3rp,0,n,0 1ps,o14 366s,pqo,prn,-17p28,2q5n,-3qn8;zzf,3s3,3s5,n,34 0,209 116,nr,o3,-p39,170p,110;zp,3pp,1s,140,;zzf,20,3ro,n,34 5q,34 5q,o,o,-o7p,424,-125;zzf,3rr,3rs,n,0 5r,34 o7,1p,1p,-3pn,759,-3;zp,o0,20,13q,pneq_abapr_ppbs:63ssfpkIhia96VOI4TO;zz,16q,p4,120,;zzf,1pr,3ro,n,6o7 116,2r97 1047,o68,o6o,-189np,1782p,-q;zzf,3ro,3ro,n,0 1ps,2p1q 2205,n6p,n79,-1p5p2,12p20,175;zp,1rn,o4,180,fd-perqvgpneq;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.ML1iXJZMwAqHBWKXRQRBeD,,.zZbxWp4f5V3n9IwmSWm04ETnsVDarKfygCWPIGcLvMvHPRRYU77d-kio_PnmGEUVaiLfZFyNMJ7fCzPdVbDIXe7gUm5HKnUKRxqliVtsllWoGsdeHcVeUAFVb-TeDlizbcWzFq4-fnmPIs5EtuSaPaufkxv6ae_4MzcywvY-c9TuP7ttLgzR8zHfqjqRUJIobZ53CRphYDrXRlAKq2gV7unaBh8QExYTI_Oi64qsGmlg14who0TbvV3VqtK8Nf0a\"}"}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1597ms (Views: 43.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 02:42:20 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"585800", "card_nonce"=>"ccof:63ffscxVuvn96IBV4GB", "nonce"=>"", "nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:926:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":676963,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,0,5s53sro6,2,1;fg,0,nzbhag,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;ss,0,nzbhag;xq,606;xq,25p;xq,212;xq,102;xq,4s1;xq,op;xq,158;so,2,nzbhag;zz,1no,133,92,nzbhag;zzf,3rp,0,n,0 1ps,o14 366s,pqo,prn,-17p28,2q5n,-3qn8;zzf,3s3,3s5,n,34 0,209 116,nr,o3,-p39,170p,110;zp,3pp,1s,140,;zzf,20,3ro,n,34 5q,34 5q,o,o,-o7p,424,-125;zzf,3rr,3rs,n,0 5r,34 o7,1p,1p,-3pn,759,-3;zp,o0,20,13q,pneq_abapr_ppbs:63ssfpkIhia96VOI4TO;zz,16q,p4,120,;zzf,1pr,3ro,n,6o7 116,2r97 1047,o68,o6o,-189np,1782p,-q;zzf,3ro,3ro,n,0 1ps,2p1q 2205,n6p,n79,-1p5p2,12p20,175;zp,1rn,o4,180,fd-perqvgpneq;zzf,207,3s1,n,p4n 55s,p4n 55s,157,15o,-157p,84p6,o21;zzf,3rp,3rp,n,nnq 5oo,2r63 13r5,999,99p,-q265,172n0,-q33;zz,1np05,3n,4,;gf,0,1qs99;zzf,1q2,1nqq6,n,o14 o76,6po6 64q6,178p,1772,-4n0n3,5q9p0,12p0;zzf,3ro,3ro,n,1n1 172,375 1r05,734,736,-s433,1186r,-489;zp,8p0,r7,17r,fd-perqvgpneq;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.ML1iXJZMwAqHBWKXRQRBeD,,.zZbxWp4f5V3n9IwmSWm04ETnsVDarKfygCWPIGcLvMvHPRRYU77d-kio_PnmGEUVaiLfZFyNMJ7fCzPdVbDIXe7gUm5HKnUKRxqliVtsllWoGsdeHcVeUAFVb-TeDlizbcWzFq4-fnmPIs5EtuSaPaufkxv6ae_4MzcywvY-c9TuP7ttLgzR8zHfqjqRUJIobZ53CRphYDrXRlAKq2gV7unaBh8QExYTI_Oi64qsGmlg14who0TbvV3VqtK8Nf0a\"}"}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 24146ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:44:49 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 2626ms (Views: 41.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 02:52:43 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"", "nonce"=>"cnon:CBASEPmAQJPq3f1v5S_VWAcVd60", "nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:926:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":291698,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,-1,5s53ssq1,2,1;fg,0,nzbhag,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;zz,r14,2p9,4no,;zzf,3ro,0,n,29r 5p,1ss1 32n3,11nr,11oq,-213nq,1sp48,-6n4;zzf,408,407,n,ABC;zzf,o3q,o3q,n,ABC;zzf,271o,271p,n,ABC;gf,0,485r;zzf,2717,2717,n,ABC;zzf,2715,2715,n,ABC;gf,0,968n;zzf,2718,2718,n,ABC;zzf,2717,2717,n,ABC;gf,0,r4o9;zzf,272s,272r,n,ABC;zzf,rn4,rn5,n,ABC;zz,15,4o6,3q0,;zzf,5696,56nn,32,474 6n8,516 o394,4pp,303n,-31pp7,38243,-1r;gf,0,17137;zz,5551,4r6,17,;gf,0,1p688;zzf,po4,6206,32,1n 5p,1425 qnq,198,sss,-7530,7922,-3;zz,573q,482,1,;gf,0,22n79;zp,5rn,103,1so,;zzf,1p4n,7971,32,1n 5q,317s 2n78,62r,3qrr,-9nr7,14479,-5;zz,n0,428,28,;zzf,2684,2723,32,0 r9,2897 2o95,45p,2o8p,-r530,1170q,s;gf,0,273q1;zzf,2721,2722,32,ABC;zzf,2720,271s,32,ABC;gf,0,2p212;zzf,rn6r,rn6s,1r,ABC;gf,0,3np80;zzf,rn6p,rn6o,1r,ABC;gf,0,496rp;zzf,rn6q,rn6q,1r,ABC;gf,0,58159;zzf,rn6p,rn6q,1r,ABC;gf,0,66op5;zz,78n9,443,1p6,;gf,0,6r46r;zz,2sop,424,2pp,;zp,434,119,2s0,fd-perqvgpneq;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.Tc3RZE1UMphbVj2P2vl7eN,,.4n4FKIrzhizO82KA6XjOdaQVH72soeKRINxxP30OzpyCaxcvc4JRU2_JdWmSU6o0NdG9OPUxt2VA7x_tqegR77T0sHBmqWgcMQQraMvRfHzTTe3ra4NH7goCDDVPdCHhfFDr9RUKOLGkM7EZ87Vxue4ZeFeVJW0aqozeW6gNOJzLEWwwSFDNHpccGWpd_P-nyZT9aZTJFN1hG4myGLnrPiD2ld-5mL3cy1j0sIjCwwYVL8yAQiMHvrd5Hw4AlR-C\"}"}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 16870ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:53:08 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (31.0ms)
+Completed 200 OK in 3020ms (Views: 72.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 02:54:00 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"100100", "nonce"=>"cnon:CBASECwpY6uhWS7rt9uvaHBEYNk", "nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:926:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":696643,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,0,5s5401p3,2,1;fg,0,nzbhag,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;zp,544,297,19s,;zz,981,28p,194,;xx,2p6,0,nzbhag;ss,1,nzbhag;zp,nr,r1,8n,nzbhag;zzf,76,0,n,34 0,3oq4 401n,prn,q02,-347o0,10ppn,-625n;xq,30q;zzf,qs,3rp,n,ABC;xq,2q0;xq,o7;zzf,67,3rr,n,ABC;xq,2r2;zzf,109,3ro,n,ABC;xq,39p;zzf,50,3rp,n,ABC;xq,67;zzf,385,3rp,n,ABC;xq,15o;so,4,nzbhag;zzf,28q,3rp,n,ABC;zz,n3,qr,96,nzbhag;zzf,34o,3rq,n,67 339,no0 557r,r41,r2p,-334qo,2505r,1ns;zzf,3s8,3s9,n,ABC;zzf,3rp,3ro,n,2q6o 878o,2q6o 878o,r4p,r27,5n3rr,5n3rr,9065;zz,152o,442,2q,;gf,0,4o36;zzf,1o89,30o5,32,rn 1n1,38qq 8qq,57q,370p,-29q6q,sp69,-r16;zzf,2724,2724,32,ABC;gf,0,8qr3;zz,13np,424,n9,;zp,s80,pq,301,fd-perqvgpneq;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.QCzNlBUm-QJ0mdAAKFURVN,,.1TMdLVPZtPmR-VsP8tFbf6bwXjvJgtxuFlKCu9BtZsjBnrZ7mMuwww4EKZhiu_vUB9-BgtgT2UOVpL6sWqOAKxtz5L0gfx-GUnziMDVHX7p8xyRaojHbzZ9_D1YLJWVFX1XEpXqEEagfElAjwHzyvyTqVpSjgskI81yTDIYwvmz_H4AaFsEHIsWLKLaIh-dNL9gO_UvRr6hkaGcyBfpnpp18YmQG_RBBVd03sK8VxQ7oM4A7bhWtDVBAxuCQErqB\"}"}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 5700ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:54:13 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (31.8ms)
+Completed 200 OK in 2444ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:55:01 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (33.5ms)
+Completed 200 OK in 2083ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 02:55:56 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"10911", "nonce"=>"cnon:CBASEFCeCLvhsrEVgEPyPqeT3LE", "nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:926:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":163618,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,0,5s540233,2,1;fg,0,nzbhag,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;zz,2p,74,9s,;xx,16o,0,nzbhag;ss,0,nzbhag;zp,o4,53,8n,nzbhag;zzf,1pq,0,n,9p 5q,60o 72n,102,104,-569n,-72r,-n6p;zzf,3rq,3rp,n,ABC;xq,76;xq,329;zzf,4p,3rp,n,ABC;xq,3r1;zzf,22,403,n,ABC;zzf,3rq,3rq,n,ABC;xq,2n;xq,qr;zz,29q,50,96,nzbhag;zzf,47,3rp,n,5q7 20s2,5q7 20s2,359,361,14o4p,14o4p,2121;zzf,3ro,3rn,n,9o 0,68 1q4p,3s3,3s3,-107pn,27s6,-2170;zzf,3rr,3rq,n,135 o7,1632 1476,4r2,4r0,-p404,rqp5,26;zzf,3rp,3rr,n,9p 5q,1458 1r62,72p,740,-16qnn,14n1r,-or;zzf,3ro,3ro,n,823 os0,8s4 43n3,844,844,-219q0,2nn44,r72;so,1r9,nzbhag;zz,1202,sq,236,;gf,0,3o67;zzf,134q,2738,32,3q9 399,1238 1174,2n5,1n9q,-7r27,66p8,-179;zz,1373,371,r8,;zz,11q1,143,243,abapr-sbez;zzf,8on,2qsr,32,0 5q,814 24o7,26r,1848,-oos8,n611,n;gf,0,7po2;zz,10qp,150,2n6,abapr-sbez;zz,15n4,16r,271,;zzf,n7,2727,32,412 3so,1o0s 880,112,no6,-314o,8qq1,2q8;zp,24o,1p9,260,;zp,185p,p8,2r4,fd-perqvgpneq;gf,0,or80;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.7UxQHpKxyd4-RCHfRGEhgN,,.Z023TRi8gmL0NfwkiOFBoUJEC0pks5-ri4h4628U0n5M36zPCIvCCaO99wJaJX6fBFSnpkL3Mqk5MeaEKVQ3G7JdH8ZbpZM7IAQ69sv0peu15wruErVA3CR1Fun2WOKRFFmvLXSIk1pthD0MWVR5OqbsBIG9hZoMf4HAzM3TICbQwTayl8HWP0kyRa3b5sbkwlX-elfOE0iNayPQBJh23qm2AOxO2SrvB-_XFu152YWPsXoJ98Vu-DGRv6ckvqPK\"}"}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5977ms (Views: 41.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:56:11 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (20.9ms)
+Completed 200 OK in 2426ms (Views: 43.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 02:56:35 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"10811", "card_nonce"=>"ccof:2hJvHA9LZXIlqnaU4GB", "nonce"=>"", "nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:926:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":956906,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,0,5s54027n,2,1;fg,0,nzbhag,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;zz,ns9,187,9,;zzf,3rn,0,n,34 5p,1s05 4n21,132n,133r,-32398,10nq6,-52op;zp,2qs,1n,168,pneq_abapr_ppbs:2uWiUN9YMKVydanH4TO;zzf,10q,3ro,n,0 5q,16q 288,8r,8s,-19s0,-399,-57r;zzf,3ro,3ro,n,0 176,s83 2r8r,o21,o34,-1r0r7,1p00s,248;xx,p1,0,nzbhag;ss,0,nzbhag;zp,nr,54,98,nzbhag;zzf,280,3s0,n,ABC;xq,n0;xq,1rs;zzf,15q,3rp,n,ABC;xq,254;zzf,199,3rp,n,ABC;xq,3np;zzf,40,3rq,n,ABC;xq,5r;zz,262,5s,9p,nzbhag;zzf,12q,3rq,n,8q6 2544,1non 28p7,8o5,8p4,-17776,1qr05,-50;zzf,3ro,3rn,n,16q os0,1s55 1ps,96q,975,-qqp2,139q4,-49;zzf,3rp,3rq,n,ABC;zz,pp2,223,13q,;gf,0,3rs4;so,305,nzbhag;zp,o8,pn,1np,fd-perqvgpneq;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.McfFDtsFlxAjsettpnZDIN,,.43a-NHl0FZ-OL4g1PncwxxMKumvy2AtaB-aLZscSbwarSHgB86TEISOX53pFl-ExsYMA6xQms42VvZXkUgp0DjEThvPLqgzVBIyi17feL8GocsaEbYX_qAdj13fZxVdgw-AOK3FLz5DqHOQkvlESLx-F20XJo2LaeYqF1r14xWhFQ6MyK0ON0UXrsqTpSdg1rTLcF0k6YynftNkCW_ZeXyKgGl2AB8Q9y1DC4TEjHZgC7ELlk8K-9rrJ4KQTgDHk\"}"}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 7496ms (Views: 51.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:56:50 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (19.9ms)
+Completed 200 OK in 2193ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:58:13 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (32.5ms)
+Completed 200 OK in 2714ms (Views: 57.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:58:32 +0530
+Processing by HomeController#index as */*
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 2290ms (Views: 41.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 02:58:36 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"1000", "card_nonce"=>"ccof:2hJvHA9LZXIlqnaU4GB", "nonce"=>"", "nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:926:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":801798,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,0,5s5402s4,2,1;fg,0,nzbhag,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;zz,11o,1o6,14s,;zzf,3rn,0,n,68 0,212n r1o,n04,n08,-11n08,rrq4,-onn;zp,2s3,20,167,pneq_abapr_ppbs:2uWiUN9YMKVydanH4TO;zzf,sn,3rr,n,0 o7,34 o9,38,38,-780,714,-2;zzf,3ro,3ro,n,0 172,7oo 225p,7r2,7rn,-14r1n,108q0,-4o;xx,16,0,nzbhag;ss,0,nzbhag;zp,o0,6p,91,nzbhag;xq,11r;xq,154;xq,9p;zzf,19,3rq,n,ABC;xq,81;xq,17o;so,2,nzbhag;zz,194,75,99,nzbhag;zzf,59,3ro,n,1r50 1n67,1r50 1n67,405,405,191sr,191sr,2833;zzf,3rp,3rp,n,1591 p4p,1s6q 1634,654,65r,-s83r,-110r,-282s;zzf,3rp,3ro,n,ABC;zzf,3ro,3rp,n,ABC;zzf,3rp,3rp,n,ABC;zzf,3ro,3ro,n,ABC;zz,s9q,33,215,;zp,481,79,198,fd-perqvgpneq;gf,0,3p6q;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.aF1x4iHNfoARYpHtkHY6Zj,,.L6mmd_iIUK6KAeYpCUvV0A8tEB0_yEHqBDMikLB2cWr8PhiKz8qTJRr18-2luAhu2nmUqjHRJZkoyf5xN9cfFi268OArXsyTrwqoqu7ZXXpwEdp3PldFeq-RKO-3XdR1yrNBS1IFy2nYtAOuylaW-C8wUjxCprCZCNMLh3QQ7s1LqWg-PZ8PBZyDtYEwquL3X3yNTuTfrpkpJV3WuFvy-wOkigp0d5VRuy8htVr4RxLkP4jmQQdEvGsy61Im3mYf\"}"}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 6695ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 02:59:13 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (37.5ms)
+Completed 200 OK in 2340ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 02:59:46 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"1000", "card_nonce"=>"ccof:2hJvHA9LZXIlqnaU4GB", "nonce"=>"", "nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:551:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":660942,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,-1,5s54032r,2,1;fg,0,nzbhag,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;zz,83,82,11r,;zzf,3ro,0,n,34 0,o7o 83q,2rr,2s3,-67q4,3624,-s6q;zp,16s,23,154,pneq_abapr_ppbs:liCl75eiedejTEvE3TO;zzf,27r,3rp,n,0 2r5,0 2r5,4n,4n,-203,1ps2,2o2;zzf,3rn,3ro,n,0 5p,0 457,8o,8o,-2o66,r74,-2r6;zp,364,23,16o,pneq_abapr_ppbs:2uWiUN9YMKVydanH4TO;zzf,94,3s8,n,ABC;xx,382,0,nzbhag;ss,0,nzbhag;zzf,77,3s8,n,0 5q,119o 3q36,8n9,8rq,-22n42,1r91p,-167;zp,38,9p,88,nzbhag;xq,1nr;xq,s1;xq,82;zzf,92,3rp,n,ABC;xq,264;zzf,188,3rp,n,ABC;zz,o6,on,82,nzbhag;so,1no,nzbhag;zp,o0,223,oo,;zzf,qo,3rp,n,23q 5q,277o 950,n91,n9o,-r2sr,qq30,136o;zzf,3rr,3rq,n,34 0,208q 2p7q,91o,91q,-1r4q7,16300,-1320;zzf,3rq,3rq,n,33 0,33 0,5,5,-1sr,1s4,-1;zz,73q,7n,137,;zz,1387,119,204,;gf,0,4297;zzf,p68,272q,32,0 5p,33q 25pn,2po,1p27,-o91r,opns,-19;zz,nn5,46,200,;zz,1003,pn,19r,fd-perqvgpneq;zp,389,p8,1n1,fd-perqvgpneq;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.3CU7r_c6BF_ENoYN0nFyxD,,.TPe2MVgGOdgE2L4HqygZ3XA0BcNrKFYdOoNmzMbFQvS1bJ9BYLoQ4m9egAeC9DDq32vW5slstrJgNEOlZmOYApoEoq6K5pf8uqPVC_yPvptQq9fUOdl127AJnb5LTj05a5ad2zSTTT7qCrghXv13xlGCrXrgmXH0PinWiD-hIL223F1pyhKGyd_bgL-DePX2laIhOGXiQyiwSGomrpWvb5xTfpu7yN7U3k5FljcGMNWKROteViSzuhwTLaiEhuy_\"}"}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 10034ms (Views: 54.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 03:00:30 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (35.2ms)
+Completed 200 OK in 2382ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 03:04:05 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"", "nonce"=>"", "nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:551:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":207610,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,0,5s54037p,2,1;fg,0,nzbhag,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;zz,1543s,31p,5,;gf,0,1543s;zzf,3ro,0,n,107o 1r05,107o 1r05,36q,36q,-15676,-15676,-260q;zzf,3s3,3s3,n,169 616,412 2pq9,643,647,-18003,1p25n,on7;zzf,3rn,3rn,n,1q0 83q,1529 43n3,7rr,7s0,-26n28,25378,-npn;zzf,206o,206p,n,ABC;zzf,271p,271o,n,ABC;gf,0,1n78r;zzf,2718,2718,n,ABC;zzf,2725,2726,n,ABC;gf,0,1s5po;zzf,271r,271q,n,ABC;zzf,271q,271r,n,ABC;gf,0,24406;zzf,2718,2718,n,ABC;zz,7p3p,3pn,r,;gf,0,2r75n;zzf,pn2,88qr,32,635 4o4,1n03 2797,28r,1998,-9n47,ronq,-6;zz,rs8,5q,1n8,fd-perqvgpneq;zzf,187q,2775,32,oq8 2r,oq8 2r,3q,261,-3o38,3nrq,-2;zz,1239,87,21n,;gf,0,32qnn;zp,4q9,n0,1n4,fd-perqvgpneq;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.Yc-oLXj_gbu4qX2ILyeMij,,.CI0S0_cvxKNuZlk2WyAj9hIwWkGeXhx2ZIX5AA4DyPHGKVqXdKXhjka4b3qWM-aO1LXebt0FdEW3dRZ6Kkhm18Pe9yyEGPg_WpCLAZOKpEawxxjCMI75s2-EXNhYuFURs5dOjTp0U-_Fp-7XoqiCqL9G9KpxGvBu3A_AgMacKIsMHm6YxNsmkQTOxH9dH0kHvFL41E9p41me-THRrEYAYAO25UKIqe8Sc1EYVbCr2hIAuXtC73u_FpCCgq8CDL9l\"}"}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 30ms (Views: 28.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 03:07:50 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (33.7ms)
+Completed 200 OK in 2623ms (Views: 63.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 03:07:57 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"", "nonce"=>""}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 31ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 03:08:51 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (33.7ms)
+Completed 200 OK in 2803ms (Views: 64.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 03:08:58 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"", "nonce"=>"", "nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:551:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":464901,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,0,5s540571,2,1;fg,0,nzbhag,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;zz,38,or,s8,;zzf,40p,0,n,0 5p,558 1q98,63s,649,-q8q6,121q0,-qs;zp,18,op,1n0,fd-perqvgpneq;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.k0kNVvm6cTgVwDBh6Dbr0t,,.ubPTvQFh4ir1xb8ts2UuZ8QXWmXz60upP4bIKC6lqjgBhn3o-OnVtfP6IqcBCJzMgRJN0DYDaeyGUokiyqBLHenIn4KOkWaaGSr8tXGcv_iz3tT8v4mCU15KFvYN07XB-Z42Okos9hKBXoJu21xIC5CvGRcVELhJvMdhHnYd4De3wkrWeJEuT6L-0Q__z5chGG1YGCZxU2aAgsCtfRnzAsLlzR-oHhuVuCoM9Bl-ZUkC0suJzBnnsnLEH3F_-IUi\"}"}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 975ms (Views: 45.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 03:13:37 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"", "nonce"=>"", "nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:551:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":464901,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,0,5s540571,2,1;fg,0,nzbhag,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;zz,38,or,s8,;zzf,40p,0,n,0 5p,558 1q98,63s,649,-q8q6,121q0,-qs;zp,18,op,1n0,fd-perqvgpneq;zzf,3q4,3rp,n,ABC;zz,27003,3q,1,;gf,0,27833;zzf,2ns,272o2,n,64s 39r,1875 69s3,rr0,rpp,-3qsn5,44n54,1qn;zzf,3ro,3ro,n,ABC;zzf,3rp,3ro,n,ABC;zzf,3rq,3rq,n,34 8nr,34 8nr,qr,qr,-55sn,56q6,16;zzf,404,405,n,209 172,138n 6p26,qnp,r52,-43206,4401n,-5o9;zz,100,16,202,;zzf,2ro,3ro,n,0 o9,2nrr 2r5,5q0,5q0,-1nn03,1nr46,6s;zzf,43r,43r,n,ABC;zzf,3ro,3ro,n,ABC;zzf,2895,2895,32,9s8 s5s,qo2 152p,qs,8q5,-7r13,7o00,q;gf,0,2os53;zzf,2732,2732,32,ABC;zzf,272s,272s,32,ABC;gf,0,30qo4;zz,1668,o6,21p,fd-pneq-ahzore;zzf,2n1n,4081,32,1n1 683,48r 4152,1q8,1284,-125q9,145p6,-n;gf,0,34r36;zz,452,3o9,21,;zzf,22q0,2723,32,6nr 11q1,3723 22r7,297,19ro,-pr77,14645,3;zzf,2722,2722,32,ABC;gf,0,39p7n;zz,34s3,132,1or,;zz,2qn3,45r,16,;gf,0,3ss10;zz,383r,61,212,;zp,358,o3,186,fd-perqvgpneq;gf,0,43nn6;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.k0kNVvm6cTgVwDBh6Dbr0t,,.ubPTvQFh4ir1xb8ts2UuZ8QXWmXz60upP4bIKC6lqjgBhn3o-OnVtfP6IqcBCJzMgRJN0DYDaeyGUokiyqBLHenIn4KOkWaaGSr8tXGcv_iz3tT8v4mCU15KFvYN07XB-Z42Okos9hKBXoJu21xIC5CvGRcVELhJvMdhHnYd4De3wkrWeJEuT6L-0Q__z5chGG1YGCZxU2aAgsCtfRnzAsLlzR-oHhuVuCoM9Bl-ZUkC0suJzBnnsnLEH3F_-IUi\"}"}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 1020ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 03:23:43 +0530
+Processing by ChargesController#charge_card as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `empty?' for nil:NilClass):
+  
+app/controllers/charges_controller.rb:15:in `charge_card'
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 03:24:21 +0530
+Processing by ChargesController#charge_card as */*
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `empty?' for nil:NilClass):
+  
+app/controllers/charges_controller.rb:15:in `charge_card'
+Started GET "/" for 127.0.0.1 at 2020-09-06 03:25:07 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (35.3ms)
+Completed 200 OK in 2440ms (Views: 65.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 03:25:15 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"", "nonce"=>""}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 977ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 03:28:28 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (36.3ms)
+Completed 200 OK in 2592ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 03:28:34 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (37.7ms)
+Completed 200 OK in 2177ms (Views: 58.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 03:28:40 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"", "nonce"=>""}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 858ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/chetan/Documents/square_payment/app/views/charges/charge_card.html.erb:7: syntax error, unexpected ',', expecting keyword_end
+...eze;         @error[0].each |k, v|
+...                              ^
+/home/chetan/Documents/square_payment/app/views/charges/charge_card.html.erb:20: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/charges/charge_card.html.erb:7: syntax error, unexpected ',', expecting keyword_end
+app/views/charges/charge_card.html.erb:20: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 03:29:04 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"", "nonce"=>""}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 916ms (Views: 51.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/charges/charge_card" for 127.0.0.1 at 2020-09-06 03:29:30 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/charges/charge_card"):
+  
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+logging (2.3.0) lib/logging/diagnostic_context.rb:474:in `block in create_with_logging_context'
+Started GET "/" for 127.0.0.1 at 2020-09-06 03:29:34 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (34.7ms)
+Completed 200 OK in 2757ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 03:29:39 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"", "nonce"=>""}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 913ms (Views: 25.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 03:31:38 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (23.4ms)
+Completed 200 OK in 2641ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 03:31:47 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"", "nonce"=>"", "nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:551:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":17775,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,0,5s540npn,2,1;fg,0,nzbhag,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;zz,21,1os,1n6,;zp,3n9,10o,19n,fd-perqvgpneq;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.AG5CvMO_ecAd9zk6jMdD3t,,.0gq5OtKchVe5FAtMkF3VTldCYjhIRpXsFrGkzqukFd-icirAGzjrGvF98ig50d7wJbwieeY6oYLKN0M5lQcTLUMsDXYaW-rtb2vfBAmVJyZQPlTMFToEpdt2mYTp-L-F6fx1-YeXUdlu7OqKUN1QFWs8yWHa-qgnOgWqPegpDcUmYUXVSdTbo5mLNqt0b5h-EndS4DiKBDF1hHE0hcbWjwlbx_R_9HDBYHfCYse8qRbhG-Vrc7bRnHbsODTA3KMG\"}"}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 1375ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 03:32:32 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (25.2ms)
+Completed 200 OK in 2057ms (Views: 58.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 03:32:40 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"", "nonce"=>""}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1062ms (Views: 51.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 03:33:02 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (39.5ms)
+Completed 200 OK in 2683ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 03:33:20 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"34256", "card_nonce"=>"ccof:yvPy75rvrqrwGRiR3GB", "nonce"=>""}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 2310ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 03:43:43 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (34.5ms)
+Completed 200 OK in 2863ms (Views: 71.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 03:43:57 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"5000", "card_nonce"=>"ccof:yvPy75rvrqrwGRiR3GB", "nonce"=>""}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 1660ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 03:46:11 +0530
+Processing by HomeController#index as HTML
+Started GET "/" for 127.0.0.1 at 2020-09-06 03:46:12 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (34.4ms)
+Completed 200 OK in 2405ms (Views: 63.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (22.9ms)
+Completed 200 OK in 2328ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 03:46:22 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"6000", "card_nonce"=>"ccof:yvPy75rvrqrwGRiR3GB", "nonce"=>""}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 1720ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 03:47:30 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (32.8ms)
+Completed 200 OK in 2178ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 03:47:44 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"3456", "card_nonce"=>"ccof:63ffscxVuvn96IBV4GB", "nonce"=>""}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3161ms (Views: 24.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 03:48:04 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (31.1ms)
+Completed 200 OK in 2160ms (Views: 61.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 03:49:50 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (42.1ms)
+Completed 200 OK in 2294ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 03:51:05 +0530
+Processing by HomeController#index as */*
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (35.6ms)
+Completed 200 OK in 2629ms (Views: 80.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 03:53:11 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (41.7ms)
+Completed 200 OK in 2680ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 03:54:14 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (37.5ms)
+Completed 200 OK in 2572ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 03:54:59 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (30.9ms)
+Completed 200 OK in 2086ms (Views: 53.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 03:55:21 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (23.1ms)
+Completed 200 OK in 3312ms (Views: 56.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 03:59:31 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (38.1ms)
+DEPRECATION WARNING: autoprefixer-rails was deprected. Migration guide:
+https://github.com/ai/autoprefixer-rails/wiki/Deprecated (called from _app_views_layouts_application_html_erb___1245244571718102698_70142151909840 at /home/chetan/Documents/square_payment/app/views/layouts/application.html.erb:19)
+Completed 200 OK in 5615ms (Views: 2556.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:03:16 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (34.9ms)
+Completed 200 OK in 2601ms (Views: 62.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:03:57 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (35.3ms)
+Completed 200 OK in 2431ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:04:35 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (37.5ms)
+Completed 200 OK in 2970ms (Views: 63.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:05:46 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (23.5ms)
+Completed 200 OK in 2498ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:06:19 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (36.4ms)
+Completed 200 OK in 2771ms (Views: 59.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:06:42 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (25.8ms)
+Completed 200 OK in 2353ms (Views: 56.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:07:13 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (37.4ms)
+Completed 200 OK in 2440ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:07:59 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (37.2ms)
+Completed 200 OK in 2571ms (Views: 65.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:08:36 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (35.2ms)
+Completed 200 OK in 2455ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:10:18 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (25.9ms)
+Completed 200 OK in 2279ms (Views: 49.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:11:30 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (39.4ms)
+Completed 200 OK in 2432ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:12:23 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (32.8ms)
+Completed 200 OK in 2290ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:13:02 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (43.4ms)
+Completed 200 OK in 2554ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:13:49 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (40.4ms)
+Completed 200 OK in 2248ms (Views: 80.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:16:35 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (29.5ms)
+Completed 200 OK in 2782ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:17:03 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (22.7ms)
+Completed 200 OK in 2242ms (Views: 46.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:17:19 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (37.7ms)
+Completed 200 OK in 2090ms (Views: 59.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 04:17:37 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"23456", "card_nonce"=>"ccof:63ffscxVuvn96IBV4GB", "nonce"=>"", "nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:551:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":939821,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,0,5s54157q,2,1;fg,0,nzbhag,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;ss,2,nzbhag;zp,7q,152,99,nzbhag;xq,464;xq,or;xq,p6;xq,r3;xq,q3;zz,5q3,166,8s,nzbhag;zzf,3ss,0,n,135 0,5q83 3968,1358,1461,-10713,3q191,5056;zzf,3s5,3s4,n,306 113,259p 694,4ro,4rp,-3p545,181n7,-6362;so,1qs,nzbhag;zp,8p,1r,13s,pneq_abapr_ppbs:63ssfpkIhia96VOI4TO;zzf,17s,3ro,n,34 0,r3r r1o,22q,22q,-398,p86r,140n;zzf,3ro,3ro,n,19q o7,1po0 1o7q,sso,1002,-p590,16q2q,81s;zzf,3ro,3ro,n,68 0,29r9 12ps,884,88q,-13844,1p3r0,-1p5n;zz,38,261,14n,;zzf,3o3,3ro,n,34 1pn,9o07 116,2136,213r,-60r50,3rs76,215;zzf,41q,41p,n,9p 5p9,1458 510,2nr,3on,-3n34,8op4,opp;zzf,3ro,3rp,n,s0r 5p9,491s oq1,1nnn,1noq,-2r4o4,20qpp,-o9;zp,2rp,r0,199,fd-perqvgpneq;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.tUjc8NmqXkMj7N8xF8UiTt,,.J5XcnTFfk4fkcNfL9XqE-XiybmIg1rSCqRyQ77n-8KLXu7mTAoZ9gbXSfXmurLSL2dOWTVoLy0uI3uiE6Hup4bPHf6A3MzPBjsPCBosacN1LcWu8IScgvNM_H5d9Os-GklQcyQspNEMjRKD2qSAKGdsC23MDbqGzzATJqM4GXfbVnUC1vDELg-zKk0F2ytTQ1o8173BE2fLVp32t67yIAcZh_uGUGGD5PeGPF6ehafXnObL5elHUJkHMnIJycFBb\"}"}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 1644ms (Views: 51.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:17:43 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (38.6ms)
+Completed 200 OK in 2572ms (Views: 71.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:20:45 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (38.5ms)
+Completed 200 OK in 3294ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:21:02 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (24.9ms)
+Completed 200 OK in 2511ms (Views: 48.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:21:16 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (26.5ms)
+Completed 200 OK in 2103ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:21:39 +0530
+Processing by HomeController#index as */*
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (21.4ms)
+Completed 200 OK in 2200ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:22:18 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (28.6ms)
+Completed 200 OK in 2523ms (Views: 63.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:22:34 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (38.3ms)
+Completed 200 OK in 2423ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:22:57 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (31.6ms)
+Completed 200 OK in 2143ms (Views: 71.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:25:16 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (18.7ms)
+Completed 200 OK in 2033ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:25:43 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (32.1ms)
+Completed 200 OK in 2105ms (Views: 61.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 04:26:06 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"11", "nonce"=>"", "nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:551:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":516361,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,0,5s541775,2,1;fg,0,nzbhag,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;zz,245s,43q,222,;zzf,3r9,0,n,306 226,4r20 1s1o,1624,1628,-2q10n,323q4,1486;xx,144,0,nzbhag;ss,0,nzbhag;zp,o6,10o,94,nzbhag;zzf,202,3so,n,5s6 9qq,5s6 9qq,127,124,-rp77,-7218,-230r;xq,on;xq,90;zzf,2n2,3rp,n,ABC;so,260,nzbhag;zp,nr,252,9s,;zzf,qq,3rp,n,16q 172,294q 798,6sq,6sq,-rr5p,1n3rp,5;zzf,3ro,3rn,n,ABC;zzf,3ro,3rp,n,ABC;gf,0,3os1;zz,1p9,235,156,;zzf,223,3rp,n,0 5q,1661 4n82,r94,rn3,-1p03r,309s8,281;zp,21s,q2,1no,fd-perqvgpneq;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.ShAbwtnBS-k-1MmT2cVPVD,,.Tgfmylj1WWVHIfSy6M9quNWNeaQU3lY0DSRDOs6sgtpoZF-9bXHi_H645a3E7Qo_kzqH1yHfSFsVI6Gj-Q-8Yw7B9rouK-QKZ3yzt2OtdiWGTRDTKODyDXwDZ9lKT43rT-AlVRSyoRSD8Bk-rGp92e3Czd_j0nPuWbjUvSlfFrToUbOceDQ-UP0uEExSKXDNPltkii5Tlu2Dbq9ap79vqkY-_yGycbJi7hoq_3IPQHNPUmrTMbZT9azrEWclxR1a\"}"}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 938ms (Views: 44.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:26:26 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (39.9ms)
+Completed 200 OK in 2309ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 04:26:39 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"99", "card_nonce"=>"ccof:yvPy75rvrqrwGRiR3GB", "nonce"=>""}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 1720ms (Views: 50.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:26:49 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (33.9ms)
+Completed 200 OK in 2295ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:29:38 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (29.5ms)
+Completed 200 OK in 2189ms (Views: 60.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/refund" for 127.0.0.1 at 2020-09-06 04:29:52 +0530
+Processing by ChargesController#refund as HTML
+  Parameters: {"nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:926:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":515518,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,0,5s541861,2,1;fg,0,nzbhag,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;zz,35,3o3,3n7,pbzzvg;xx,372,0,pheerapl;ss,0,pheerapl;zzf,77,0,n,q0 172,17n2 181q,7qn,7qq,-11166,15507,-1qpr;zp,3n,2or,36r,pheerapl;zzf,3o3,3rq,n,ABC;zzf,3rq,3rp,n,ABC;xq,11;zzf,3r8,3s9,n,ABC;xq,19;xq,90;xq,303;so,2,pheerapl;zzf,3q,3rp,n,ABC;zzf,3rp,3rp,n,ABC;zz,5,2pn,372,pheerapl;zzf,3r7,3ro,n,139 0,1p7p 5p9,5ps,5q1,-10sq0,122nn,39;zp,37,3q1,36r,pbzzvg;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.OU-t7aKAmdrhPh6ko8UWRj,,.H12ofyqu1qUdwDDFWVyJyNwhLQFXDjB_vDSQREIEjyXDWxI0oFd4XUSS-ryoFrkXMqqdUOgsSrCHfTcRqumpwRvj8E97a6aFoJ1Q1jqUpDq3ela18vr2LxATbBd0ZwljSY_IoF48wntmdDMxU7J3jXC0zg3K4oAo8OfWmbt__C6H8P8Kq_TcTxYhRofUpHIaJkCpEtnjDfqk_U8l7P5UsJZjIpedPdW5_XSr9AkRkZOKZVjJIOa0j1ODEnpOiWA6\"}", "utf8"=>"✓", "authenticity_token"=>"nfdvNNv2DsyZiWDmSR3jK7FwH5Nk87++mhiDLNjqF1ON6deNBgf0R8dYa2f5q2qXcjIe3BI24IP9MgLsvaXRRA==", "payment_id"=>"FgvermcZFilft42J5xUdqafPewEZY", "total_money"=>"99", "refund_amount"=>"100", "commit"=>"Refund"}
+No template found for ChargesController#refund, rendering head :no_content
+Completed 204 No Content in 968ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/refund" for 127.0.0.1 at 2020-09-06 04:32:36 +0530
+Processing by ChargesController#refund as HTML
+  Parameters: {"nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:926:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":515518,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,0,5s541861,2,1;fg,0,nzbhag,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;zz,35,3o3,3n7,pbzzvg;xx,372,0,pheerapl;ss,0,pheerapl;zzf,77,0,n,q0 172,17n2 181q,7qn,7qq,-11166,15507,-1qpr;zp,3n,2or,36r,pheerapl;zzf,3o3,3rq,n,ABC;zzf,3rq,3rp,n,ABC;xq,11;zzf,3r8,3s9,n,ABC;xq,19;xq,90;xq,303;so,2,pheerapl;zzf,3q,3rp,n,ABC;zzf,3rp,3rp,n,ABC;zz,5,2pn,372,pheerapl;zzf,3r7,3ro,n,139 0,1p7p 5p9,5ps,5q1,-10sq0,122nn,39;zp,37,3q1,36r,pbzzvg;zzf,3o4,3rp,n,ABC;zzf,3rp,3rp,n,ABC;zzf,3rp,3rp,n,ABC;zz,37q,3q6,36q,pbzzvg;zzf,23o0,272p,32,1n 0,1ro9 144,295,19q4,-8695,99oo,5;gf,0,4rn4;zzf,2725,2726,32,ABC;zz,1242,5n8,282,;zzf,5q74,6so6,32,12o8 p7n,12o8 p7n,73,480,-710p,707o,-3;gf,0,r57s;zzf,p368,p368,32,ABC;gf,0,1n8r7;zz,o90n,3ns,258,;gf,0,261s1;zzf,p3,o9pp,32,5ns1 35o6,5ns1 35o6,21q,1520,21016,21016,n90;xx,31s,3,pheerapl;ss,0,pheerapl;zp,n0,28q,376,pheerapl;zp,6q,28q,376,pheerapl;xq,5n4;xq,1491;xq,1s3;xq,1s3;xq,80;zz,38n,29p,376,pheerapl;zzf,q3,2725,32,187 0,13n2 5q,p4,7n7,-1qs1s,5n8p,-897;so,139o,pheerapl;gf,0,29q73;zp,o6,3p7,361,pbzzvg;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.OU-t7aKAmdrhPh6ko8UWRj,,.H12ofyqu1qUdwDDFWVyJyNwhLQFXDjB_vDSQREIEjyXDWxI0oFd4XUSS-ryoFrkXMqqdUOgsSrCHfTcRqumpwRvj8E97a6aFoJ1Q1jqUpDq3ela18vr2LxATbBd0ZwljSY_IoF48wntmdDMxU7J3jXC0zg3K4oAo8OfWmbt__C6H8P8Kq_TcTxYhRofUpHIaJkCpEtnjDfqk_U8l7P5UsJZjIpedPdW5_XSr9AkRkZOKZVjJIOa0j1ODEnpOiWA6\"}", "utf8"=>"✓", "authenticity_token"=>"nfdvNNv2DsyZiWDmSR3jK7FwH5Nk87++mhiDLNjqF1ON6deNBgf0R8dYa2f5q2qXcjIe3BI24IP9MgLsvaXRRA==", "payment_id"=>"FgvermcZFilft42J5xUdqafPewEZY", "total_money"=>"99", "refund_amount"=>"0.99", "commit"=>"Refund"}
+No template found for ChargesController#refund, rendering head :no_content
+Completed 204 No Content in 2126ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:33:53 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (28.9ms)
+Completed 200 OK in 2787ms (Views: 52.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 04:34:02 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (38.8ms)
+Completed 200 OK in 2149ms (Views: 68.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 05:41:29 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (27.4ms)
+Completed 200 OK in 2566ms (Views: 242.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 05:41:54 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"242423", "card_nonce"=>"ccof:yvPy75rvrqrwGRiR3GB", "nonce"=>"", "nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:926:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":862326,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,0,5s54293n,2,1;fg,0,nzbhag,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;ss,1,nzbhag;zp,7o,64,90,nzbhag;xq,664;xq,4p9;xq,9nr;xq,114;xq,296;xq,r2;zz,2o5,6p,93,nzbhag;so,140,nzbhag;zp,o3,178,q9,;zzf,200,0,n,o65 3so,2o22 1557,757,75n,-1688p,82n6,-26s4;zzf,3ro,3ro,n,139 o9,1s39 282,545,551,-12o10,9r25,-q7r;zzf,3rq,3rq,n,ABC;zzf,3rp,3rp,n,ABC;zzf,3rp,3rp,n,ABC;zz,25r,202,133,;zzf,18r,3ro,n,95p 683,2snq 2o7n,948,938,-1qp4n,28op0,p39;zzf,3rn,3ro,n,34 0,1153 p2q,401,406,-oo12,60p4,-o29;zp,1on,21,155,pneq_abapr_ppbs:liCl75eiedejTEvE3TO;zzf,232,3rp,n,34 0,1424 1np4,3sr,3sr,-110p6,14rs6,604;gf,0,3osq;zp,1ro,98,1np,fd-perqvgpneq;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.HDC487gt5tUt6BeXGCRoUN,,.RDRdFdHshz8LK6LyxwlYijzw4-apWeX5lRWL5QCJYfW_Zcvfn3Q5wMZB0FUrSracytmjXiipvK9J5lr-RbqeOr15rzFTlHPRmrCuVuNrt3kRyhhH-aDRvllwcA6u8SVU4S_MT1qLQamOy8aTDxHGox86us5X6MQNUXlVEUwNsE1AgDuhyb_98yuRaW_JNJpmlhX-cey4PDhPjZSMv9AKKjFpTcATV7298AXfbxlCBZ1Kn0o4OUngW6HeImO1ytgQ\"}"}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (8.2ms)
+Completed 500 Internal Server Error in 1488ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    27:       </table>
+    28:     <% else %>  
+    29:       <table class="table bg-danger">
+    30:         <% @error[0].each do |k, v|%>
+    31:           <tr>
+    32:             <td><%= k %></td>
+    33:             <td><%= v %></td>
+  
+app/views/charges/charge_card.html.erb:30:in `_app_views_charges_charge_card_html_erb___4602562735253675104_70184128850200'
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 05:43:41 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"242423", "card_nonce"=>"ccof:yvPy75rvrqrwGRiR3GB", "nonce"=>"", "nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:926:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":862326,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,0,5s54293n,2,1;fg,0,nzbhag,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;ss,1,nzbhag;zp,7o,64,90,nzbhag;xq,664;xq,4p9;xq,9nr;xq,114;xq,296;xq,r2;zz,2o5,6p,93,nzbhag;so,140,nzbhag;zp,o3,178,q9,;zzf,200,0,n,o65 3so,2o22 1557,757,75n,-1688p,82n6,-26s4;zzf,3ro,3ro,n,139 o9,1s39 282,545,551,-12o10,9r25,-q7r;zzf,3rq,3rq,n,ABC;zzf,3rp,3rp,n,ABC;zzf,3rp,3rp,n,ABC;zz,25r,202,133,;zzf,18r,3ro,n,95p 683,2snq 2o7n,948,938,-1qp4n,28op0,p39;zzf,3rn,3ro,n,34 0,1153 p2q,401,406,-oo12,60p4,-o29;zp,1on,21,155,pneq_abapr_ppbs:liCl75eiedejTEvE3TO;zzf,232,3rp,n,34 0,1424 1np4,3sr,3sr,-110p6,14rs6,604;gf,0,3osq;zp,1ro,98,1np,fd-perqvgpneq;zzf,207,3s2,n,2170 898,2170 898,374,37q,-3r30,155q1,1os6;zzf,401,401,n,p3q r2,1q2s 7np,6o2,6rq,-s2pr,130p4,-1roo;zz,192nn,34,3n,;gf,0,1q69n;zp,827,oo,1n4,fd-perqvgpneq;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.HDC487gt5tUt6BeXGCRoUN,,.RDRdFdHshz8LK6LyxwlYijzw4-apWeX5lRWL5QCJYfW_Zcvfn3Q5wMZB0FUrSracytmjXiipvK9J5lr-RbqeOr15rzFTlHPRmrCuVuNrt3kRyhhH-aDRvllwcA6u8SVU4S_MT1qLQamOy8aTDxHGox86us5X6MQNUXlVEUwNsE1AgDuhyb_98yuRaW_JNJpmlhX-cey4PDhPjZSMv9AKKjFpTcATV7298AXfbxlCBZ1Kn0o4OUngW6HeImO1ytgQ\"}"}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 1674ms (Views: 166.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 05:43:48 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (29.9ms)
+Completed 200 OK in 2330ms (Views: 51.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 05:44:11 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"673", "card_nonce"=>"ccof:2hJvHA9LZXIlqnaU4GB", "nonce"=>""}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1479ms (Views: 23.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 05:44:16 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (41.4ms)
+Completed 200 OK in 2336ms (Views: 101.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/charges/charge_card" for 127.0.0.1 at 2020-09-06 05:50:51 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/charges/charge_card"):
+  
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+logging (2.3.0) lib/logging/diagnostic_context.rb:474:in `block in create_with_logging_context'
+Started GET "/" for 127.0.0.1 at 2020-09-06 05:51:05 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (44.1ms)
+Completed 200 OK in 2661ms (Views: 80.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 05:51:58 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"", "nonce"=>"cnon:CBASEIGdit0TIswn7JIB2I8lKn4", "nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:551:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":386096,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,0,5s542o77,2,1;fg,0,nzbhag,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;zz,693,1qq,2pq,;zzf,3rp,0,n,9no q9p,148q 24r6,817,81p,-spr7,ppor,-17r7;zzf,3rn,3ro,n,ABC;zzf,3rp,3ro,n,snn 2315,qr6 3o17,9rn,9s9,-qrp6,258so,25q2;zzf,421,421,n,68 0,23q 2541,4s0,50p,-17196,17124,-2293;zzf,3ro,3ro,n,ABC;zzf,3r9,3rn,n,ABC;zzf,159s,159s,n,ABC;zzf,175q,175q,n,ABC;gf,0,4o46;zz,3s,26n,80,;zzf,3p9,408,n,0 226,3rnn 1898,13n4,143s,-1s400,2n12n,5rr;zzf,3ro,3ro,n,0 457,0 5p9,103,103,-39qn,r74,-9p5;zz,906,55,2os,;zz,1n3r,65,28n,fd-pii;zzf,3r4,2728,32,34 0,s15 256r,277,18o6,-p472,p8p1,-1;zzf,2721,2721,32,ABC;gf,0,n182;zz,920,418,18s,;zp,o2o,s5,2rq,fd-perqvgpneq;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.g-pQXG7aPwlhBOwlP0BJ-D,,.Z_eylV6KwMzXU_49zxQeli8JjjOe5kbFAJTR3YSlobxz92sYcIlxxiiM_21s_t_kopO1KZA10ygWsXd5RTsjooc32p5WIEaUKnKTFpez_2QG6G-VeeDwAeW7CavY0iia3gRDHddWPECE1jIfKSRwxxaFQdXFTowMOagkNgd-V4xMw2OUMnTIgZwD5xjV4F7R99a2HiBNSGiNJIdLRq3ECEfhq7S1r0ZlAFkE6UjdVKpb3FZa7uFHcWqU4MWHvspM\"}"}
+Completed 500 Internal Server Error in 1112ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `fetch' for #<Square::ApiResponse:0x00007f52067e5d60>):
+  
+app/controllers/charges_controller.rb:32:in `charge_card'
+Started GET "/" for 127.0.0.1 at 2020-09-06 05:53:50 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (32.0ms)
+Completed 200 OK in 2546ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 05:54:01 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (47.4ms)
+Completed 200 OK in 2212ms (Views: 74.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 05:54:50 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"", "nonce"=>"cnon:CBASEC1ihVP5RGnlSd2kxB3WSrU", "nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:551:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":559208,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,0,5s542p26,2,1;fg,0,nzbhag,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;zz,197p,27q,1o9,;zzf,3rr,0,n,9qq 112p,1qo8 3psr,8p4,8r1,-1r548,-p60p,-4orq;zzf,3s6,3s7,n,ABC;zzf,204s,204s,n,ABC;gf,0,41ns;zzf,15s3,15s3,n,ABC;zz,100,297,r2,;zzf,2ro,3ro,n,306 nor,179n 3q20,ps5,ps8,-21n40,210s2,8n;zzf,3ro,3ro,n,1nn7 5q,364 3o38,899,8o7,-1469n,24589,197r;zzf,3rp,3rp,n,412 39r,p35 7s5,200,200,-78qp,-3674,-1nn8;zzf,3rq,3rp,n,o65 510,snn r78,361,361,-q53r,7po0,0;zzf,3rp,3rp,n,ABC;zzf,3s1,3s2,n,ABC;zz,6r1,74,28q,;zz,14q4,413,30p,;gf,0,8nr3;zzf,o75,272n,32,4r 0,414s 34sq,42s,29qn,-snsn,1n482,8;zz,s4s,289,21q,;zp,52p,s9,305,fd-perqvgpneq;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.Ypa8Lh9pPgD4GXo2IsaB7j,,.M7d1p2e_AiRPACCplaUdQ_L2JzVPpSQT7McRAlFQ5g0ag-a68Kz6JLdm9mbG4M8vszDYS1_xcny5AcfUo5Er35K4xwPJ_hV4EmHTWjh3TkZoN2kwGr-BY8__zIWOlgN38h2NNvenE6r_Z5bVee8d32TmY0LOgvxMDPKKEZBXz3lTkgDZZlK8vcdEI4az0XjhzYTDJH_1LG-33Un4p3iuXijlTgZyfgzo3QQ_Qyi9z9yeI6m6UUzb6ShcUcpQle1d\"}"}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 2093ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 05:54:58 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (20.3ms)
+Completed 200 OK in 2117ms (Views: 49.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 05:56:17 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (28.5ms)
+Completed 200 OK in 2240ms (Views: 50.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 05:57:17 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"37001", "nonce"=>"cnon:CBASEFG_9uSh0YsbBjldXK95CV4", "nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:551:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":100653,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,0,5s542po1,2,1;fg,0,nzbhag,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;zz,o16,2oq,12,;zzf,3ro,0,n,0 o9,1sn0 4pn3,n60,n75,-28ss0,626,-5p1p;zzf,3ro,3ro,n,67 5p,1388 242o,o44,o4n,-77r2,19o0r,1q0;zzf,3rn,3rn,n,34 5p,o99 n7q,609,609,-799n,8476,95q;zzf,3rq,3rq,n,0 o9,155n s66,596,59r,-q3nr,p4rn,-ns9;zzf,3rn,3rn,n,68 2r5,29r 7r0r,1393,13o5,-3s886,4r056,-113;zz,384,17r,278,;zzf,6n,3rr,n,rqn 39r,2816 55s,593,59q,-so9n,19073,rr2;zzf,3rp,3rp,n,ABC;zzf,3ro,3ro,n,ABC;xx,2ps,0,nzbhag;ss,1,nzbhag;zp,ns,r2,8r,nzbhag;zzf,70,3rs,n,2po 5np,95p 8rqr,13n9,13nq,-49oo0,597o8,180;xq,114;xq,257;zzf,80,3ro,n,ABC;xq,r1;xq,73;xq,77n;gf,0,3o1n;xq,492;zz,1s7,so,95,nzbhag;xq,4ss;xq,74;xq,os5;zz,2s8,149,n3,;zzf,371,2728,32,1n 0,83q 370,3o,24p,-224p,2pn1,0;so,8pr,nzbhag;zp,o2,1q6,p2,;zz,932,1oo,1rq,;zz,1357,152,217,;gf,0,7s7q;zzf,794,2q9q,32,1n 0,600 38s7,684,413s,-os72,11r68,5;zz,214s,80,2qr,;zzf,5q5,2724,32,p35 116,240 34o5,29n,19sr,-666p,1091q,340;zp,615,ps,32n,fd-perqvgpneq;zz,897,202,2q5,;gf,0,opr1;zp,qo3,ro,321,fd-perqvgpneq;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.UGJEqMwZmG8ZbSSqitAnqD,,.tpN3qHfOgAdOO01aX4c0HmuI0mzToBt5enM9OW1CUP8PGzLXF8EJcFpM6knNX1jhmSTINLFhMsiFJimeNi4Dqv26TtNl8Ziac4JbuRC5Ci7xs_wPVylA4kYM6V7p5TMFigKX9LmlMFL7r0EwpGXlLTXYde81wO8WhnrF5frzRpjvFlza_gt-NBwsyhuiHoBlmdAlfjr4LG8TDi2OC5Pqx2z9quubL2Fty124IOSmbcmZR-NMsX2y-q7oUKlGSA7V\"}"}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 2509ms (Views: 49.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 05:57:25 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (30.5ms)
+Completed 200 OK in 2446ms (Views: 52.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-06 05:57:54 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"12001", "card_nonce"=>"ccof:QefYYqDamTkrn2w23GB", "nonce"=>""}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 1472ms (Views: 47.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 05:58:00 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (37.7ms)
+Completed 200 OK in 2333ms (Views: 62.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 06:08:01 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (37.7ms)
+Completed 200 OK in 2578ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 21:59:05 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (173.4ms)
+Completed 200 OK in 2794ms (Views: 669.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/2" for 127.0.0.1 at 2020-09-06 22:01:51 +0530
+Processing by HomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 36ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/2" for 127.0.0.1 at 2020-09-06 22:02:20 +0530
+Processing by HomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 23531ms (Views: 66.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/khushi" for 127.0.0.1 at 2020-09-06 22:02:50 +0530
+Processing by HomeController#show as HTML
+  Parameters: {"id"=>"khushi"}
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9713ms (Views: 41.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/2" for 127.0.0.1 at 2020-09-06 22:04:51 +0530
+Processing by HomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4982ms (Views: 51.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 22:05:00 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (42.1ms)
+Completed 200 OK in 1932ms (Views: 79.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/2" for 127.0.0.1 at 2020-09-06 22:05:07 +0530
+Processing by HomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 18144ms (Views: 92.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-06 22:05:44 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (28.4ms)
+Completed 200 OK in 1897ms (Views: 55.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/Chetan" for 127.0.0.1 at 2020-09-06 22:05:53 +0530
+Processing by HomeController#show as HTML
+  Parameters: {"id"=>"Chetan"}
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 15378ms (Views: 26.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-07 01:32:56 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (82.4ms)
+Completed 200 OK in 5379ms (Views: 525.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-07 01:33:27 +0530
+Processing by HomeController#index as */*
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 4420ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-07 01:35:26 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"", "nonce"=>"cnon:CBASECvlQI1pYVLDKs1uQ5s2P5Q", "nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:926:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":609138,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,0,5s554082,2,1;fg,0,nzbhag,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;zz,1s5,570,56,;zzf,3rp,0,n,86q 694,1p67 118p,468,46r,-r549,-69q1,-253p;zzf,3rp,3ro,n,ABC;zzf,3ro,3rq,n,ABC;zzf,3ro,3ro,n,ABC;zzf,3rp,3rp,n,ABC;zzf,3so,3so,n,ABC;zzf,3ro,3ro,n,ABC;zzf,3rn,3rn,n,ABC;zzf,3ro,3ro,n,ABC;zzf,3ro,3ro,n,ABC;zz,60o,4s5,18p,;zz,1837,4n,205,fd-perqvgpneq;gf,0,4777;zzf,9o8,27s9,32,67n 538,5s8q 594,370,22nr,-1os44,1qp31,q6;zzf,2722,2722,32,ABC;zzf,2722,2723,32,ABC;gf,0,9s73;zz,s67,s9,21n,;zzf,17o9,2720,32,16o 142,1o0s qrq,1s0,135p,-982o,982o,2;zz,p46,462,139,;zz,13pp,96,26q,;gf,0,r6n5;zzf,s31,2s42,32,1n 0,4169 53oo,474,2p92,-2109o,21340,52;zzf,272q,272r,32,ABC;zz,566,2s,310,;gf,0,12269;zz,pnpp,21r,219,;gf,0,1rq35;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.BPPSieZDKxRx5fBBGPuHWN,,.PjTO4Czw0G074yaZ-Smfv2cLCakqYLGZ60NcAg-4AxnUvCDh_vY8LkLKXTxkFympD2FguRUSqavnD8GqDrQINJKAd1vGR9pt40yxHWOk5ljw01aVxK-lDPh7O0VYRhnEAGCB0s_DsYt849HO1WVfUu9yJq6NkMw59SeACkwpz6pJW4RLsu7Fa_wFi2DN4FcUTkotwxj0mZZq5AyTmblgq448g7r7gKzeXo3mhLJhWu5FI50nRiBd6e0FRk4Qglzm\"}"}
+Completed 500 Internal Server Error in 2545ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `fetch' for nil:NilClass):
+  
+app/controllers/charges_controller.rb:19:in `charge_card'
+Started GET "/" for 127.0.0.1 at 2020-09-07 01:35:35 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (40.1ms)
+Completed 200 OK in 10417ms (Views: 71.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-07 01:37:21 +0530
+Processing by HomeController#index as HTML
+Started GET "/" for 127.0.0.1 at 2020-09-07 01:37:42 +0530
+Completed 500 Internal Server Error in 69394ms (ActiveRecord: 0.0ms)
+
+
+  
+Faraday::TimeoutError (Net::ReadTimeout):
+  
+app/controllers/home_controller.rb:9:in `index'
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (28.4ms)
+Completed 200 OK in 11007ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-07 01:39:16 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"", "nonce"=>"", "nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:551:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":93462,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,0,5s5541q3,2,1;fg,0,nzbhag,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;zz,5659,543,1o,;gf,0,5659;zzf,3ro,0,n,1n1 0,2p1q 2p0p,127q,1293,-275o2,1qr20,-438n;zzf,3rp,3ro,n,0 22p,1n1 s8q,25n,25o,-7pp5,86n6,-176;zzf,3s3,3s5,n,516 o9,1424 36sn,np6,np2,-141q0,24982,-19;zp,50,114,1qs,fd-perqvgpneq;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.djmgsRaqUDQjuUjlrsZEgN,,.0VU4CIz481iE2zNUCnqW6X1dsV0pFrOuGOQDbrlv_3Ip4_qrmDQ5EKW1IejmlzhMYLOwX6N4BGZD0xaBfiJqIttLVv-c-4BVS7y06nHXE9DCDx7ux5xAxC-Mwj11n56OIXG4IMdBFKwCEM-rkfpzdnK1RZRnJPWWfh1heQ0Nsvx4Zi9p6RE03mTmi_iIiaLW_3_AgqtFdxM7yPnoSR9ATuVNmTxFJy_sBOuRlCplkEjSjODK2czIaZrKx9_7pqG_\"}"}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (6.6ms)
+Completed 500 Internal Server Error in 19195ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    27:       </table>
+    28:     <% else %>  
+    29:       <table class="table bg-danger">
+    30:         <% @error[0].each do |k, v|%>
+    31:           <tr>
+    32:             <td><%= k %></td>
+    33:             <td><%= v %></td>
+  
+app/views/charges/charge_card.html.erb:30:in `_app_views_charges_charge_card_html_erb__3923423693225385840_70324186559080'
+Started GET "/" for 127.0.0.1 at 2020-09-07 01:39:40 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (21.7ms)
+Completed 200 OK in 2933ms (Views: 47.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-07 01:40:05 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (22.6ms)
+Completed 200 OK in 3252ms (Views: 46.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-07 01:40:34 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"", "nonce"=>"cnon:CBASEGqY-03I4dX_lm7GQ7cao4E", "nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:551:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":410884,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,0,5s554229,2,1;fg,0,nzbhag,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;zz,n76,2n0,33n,;zzf,3rq,0,n,446 56q,2p5n 1557,n0q,n0q,-176r2,-303r,-369q;zzf,3rp,3rq,n,ABC;zzf,3ro,3ro,n,ABC;zzf,3rs,3rr,n,ABC;zzf,3rp,3rp,n,ABC;zzf,3ro,3rp,n,ABC;zzf,3rp,3rp,n,ABC;zzf,3rp,3rp,n,ABC;zzf,3rp,3rp,n,ABC;zzf,3ro,3ro,n,ABC;zz,o6p,16,299,;gf,0,3q1o;zp,3q7,n8,339,fd-perqvgpneq;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.eiajcFp1-gtjIoy_l_uKdD,,.EPldmM_xeg9R929WPM7dNReFWof4mADGJuJGWpUUsurq091IN9_xp4WBjm7eecrA0JFY4hYnJGkmnxowHLUD5REsdirQAxqwMOoqIbVo7Mpm7zPKnpDqb0lNY_bhVCuRHHiqDHsH-jxkyzTDtb9rJy0EEu8OywhFNAirTMmXIZ_77ImAlWPjutTS4QxhAN60BX_uBH1VEbHJ8VP0fQw4kB68AyMCRR-ynah0zdZOfoz6qcO6f_QSeD159rPCUcbF\"}"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 45339ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-07 01:41:19 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (32.5ms)
+Completed 200 OK in 11714ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-07 01:42:21 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"", "nonce"=>"cnon:CBASENYkF5k-ozzhVZ94RjBy_7s", "nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:551:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":380197,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,0,5s554279,2,1;fg,0,nzbhag,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;zz,7503,1qq,o9,;gf,0,7503;zzf,3rp,0,n,57r 22p,2262 2pq9,12qq,12rq,-1sn0r,10630,-2146;zzf,3rp,3rp,n,3n0 16s,1r1p 7rs4,q70,q71,-4r540,518p4,141;zzf,3ro,3ro,n,ABC;zzf,3rp,3rp,n,ABC;zzf,3s2,3s2,n,ABC;zzf,3rr,3rr,n,ABC;zzf,3s2,3s2,n,ABC;zzf,3s7,3s7,n,ABC;zzf,3rp,3rp,n,ABC;zzf,3rp,3rp,n,ABC;zz,952,62,2n3,;zp,272,98,352,fd-perqvgpneq;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.p0z6jhmIeEBQrg8sEiX-4N,,.BEoNMaIPemp-U0cT8XmBnxxLWVZPNS3YzEGNFFY4BCUEmqj7i-8HJidOr6e5hjMfvINetY9Zczq7pyZ-WXjryhmEIIPKs4vCrnFpHWNF0vZqXsStnjWAu4HB1yJQ-oZ9yirRRRAM5BsbYM0qO9s3Y9vIPMj9NU_TWKj2Qj5q5nea_ccgawJjpv9NYgTtyTeYoiQUh5_QJNobnt1aSM5sMnq6ilfaSD1Ap7VO4i5w89TVDGU6dIWDGgqZoenoSRuB\"}"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 16376ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-07 01:42:37 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 3466ms (Views: 58.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-07 01:49:30 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (22.7ms)
+Completed 200 OK in 2452ms (Views: 45.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-07 01:49:55 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (50.1ms)
+Completed 200 OK in 2190ms (Views: 82.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-07 01:51:06 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (38.7ms)
+Completed 200 OK in 2480ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-07 01:52:15 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 2325ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-07 01:57:55 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (35.1ms)
+Completed 200 OK in 2569ms (Views: 63.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-07 01:58:33 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (37.8ms)
+Completed 200 OK in 3200ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-07 01:58:56 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (41.2ms)
+Completed 200 OK in 2552ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-07 02:00:16 +0530
+Processing by HomeController#index as */*
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 2128ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-07 02:02:06 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (34.9ms)
+Completed 200 OK in 2454ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-07 02:02:33 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"", "add_card"=>"on", "nonce"=>"cnon:CBASEIXylNT1WHpMTkni9dfpNG4", "nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:551:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":389334,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,0,5s55474q,2,1;fg,0,nzbhag,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;zz,2os,134,30n,fd-cbfgny-pbqr;zzf,3rq,0,n,306 5p,sq3 ns6,503,505,-n077,3692,-14sn;zzf,3s0,3s0,n,ABC;zzf,3rp,3rp,n,ABC;zzf,3rp,3rp,n,ABC;zzf,3rp,3rp,n,ABC;zzf,3rs,3rs,n,ABC;zz,187,99,2n5,;zzf,26o,3s1,n,375 116,n2p s8q,239,239,-ns57,959p,10q;zzf,3ro,3rp,n,ABC;zzf,3sq,3sq,n,ABC;zzf,3s2,3s2,n,ABC;zz,o7p,3o,312,abapr-sbez;zp,5r8,1n,338,;gf,0,3o7s;zp,4o4,1s,333,tevqPurpx1;zz,93s,69,3q7,;zp,2o7,91,39p,fd-perqvgpneq;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.syov0LGIH2hMAsc2XoCfcN,,.WPhRoI769ZqaAanN-R8yUCcZo49k6EZbLL-NvmdT1sxFH5vGySBdXgARHyWAjRrF368Fj6H3qQhwHvXSoPDJw2PmCQvQDqGm5Qc4vFLrfMUB-_rK8Kn4nhKWnfd6PFZfSIPZNvuf9QUwIgCUrWUOntyAjp9x4MfuE4rgd2U71HJsg-dLMHHLnI2oewrEaryuzI9Mmt6YaqlBN6r1dUBf-Q63v9vGCKTW5GQBdbOdLq_aYAYaHO-_EWafkz3Oyyvi\"}"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 37839ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-07 02:03:11 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (35.9ms)
+Completed 200 OK in 2363ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-07 02:03:29 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"", "nonce"=>"cnon:CBASEGQ6ZCYc1612mngnbRfxhSE", "nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:551:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":658806,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,0,5s55478p,2,1;fg,0,nzbhag,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;zz,38q,22s,310,;zzf,3rr,0,n,35p r0p,17n2 1993,85n,865,-p5qn,5pq,-258p;zzf,3ro,3rp,n,ABC;zzf,3s5,3s4,n,ABC;zzf,3s0,3s1,n,139 1ps,1ppr nor,408,410,-r98r,13061,-48;zzf,3ro,3ro,n,ABC;zzf,3sp,3sp,n,ABC;zzf,3s3,3s3,n,ABC;zzf,3s5,3s5,n,ABC;zzf,3s1,3s1,n,ABC;zzf,3s5,3s5,n,ABC;zz,158,6s,2pq,;zp,480,92,3nr,fd-perqvgpneq;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.pg1L3PQaGassBncUONA8at,,.Ht9nmG5Mi8PPAXRNFtvbsFmWZRf7O6QEiD3qqBybv6Yh9sNpifdqb1KDFH4eGMjl2U_0-_H8Dxw9YonKO3jjxQ90tHwCp78QH3Xp8PcpqBKSaGGzt1ayNzgQP6wa_MruxPmota82Nzc4TEy0ZnSJCNsgMkxF4VIjJn9d-3ftlYk7e-k1NM0MVwGAGnz1BLl96DrpqRL-px-n7vNqMAEZh2Gi47AAt8m7DPSngmqxwFjGcBMR4hNjRaWPiSWsaI67\"}"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 11825ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-07 02:03:41 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (34.4ms)
+Completed 200 OK in 2389ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-07 02:07:16 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"1015", "nonce"=>"cnon:CBASEKQEzE_oH3h5x-DWO9a87xY", "nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:551:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":279724,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,0,5s5547nn,2,1;fg,0,nzbhag,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;zz,p4p2,3n0,1o6,;gf,0,p4p2;zzf,3rp,0,n,68 2r5,516 s31,464,467,-762n,6658,-333;zzf,3rp,3ro,n,ABC;zzf,3rp,3rq,n,ABC;zzf,3rp,3rp,n,204 616,8s4 pp5o,1519,151n,-7n9p0,7sq82,860;zzf,3ro,3ro,n,ABC;zzf,3ro,3ro,n,ABC;zzf,3rp,3rp,n,ABC;zzf,3ro,3ro,n,ABC;zzf,3rp,3ro,n,ABC;zzf,3ro,3rp,n,ABC;zzf,2729,2729,32,ABC;gf,0,1131s;zzf,2726,2726,32,ABC;zzf,2722,2722,32,ABC;gf,0,16167;zzf,2724,2724,32,ABC;zzf,2725,2725,32,ABC;gf,0,1nso0;zz,12nr,3pq,3qp,;zzf,2703,39o1,32,82 8n,1ono 39o1,17o,rpp,-13nn3,11o48,8;zz,83pr,575,284,;gf,0,26q2s;zz,1qrq,471,206,;xx,92o,0,nzbhag;ss,2,nzbhag;zp,o3,91,90,nzbhag;xq,1sp;xq,10q;xq,94;xq,nn;xq,n2;xq,3s4;so,7,nzbhag;xx,682,5,nzbhag;ss,1,nzbhag;zp,o0,91,90,nzbhag;xq,q1;xq,nn;xq,144;gf,0,2n7q2;xq,4nr;xq,810;xq,8r;zz,3pr,99,88,nzbhag;zp,59q,rs,79,nzbhag;xq,304;xq,pr;xq,pq;xq,1p5;zz,4qn,sn,79,nzbhag;xq,51p;xq,159;xq,1o6;xq,1sr;zzf,1pr,rp5q,1r,s5 6n,2s1 823,po,2s9q,-453,3r5,0;zz,op8,276,24o,;so,2sq,nzbhag;gf,0,2r483;zz,33q7,10n,2q0,;zp,13nn,qn,3n4,fd-perqvgpneq;gf,0,32p04;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.n1rQ9mh3YAlbEa747_q8mt,,.41MTjgmY8zXd0Ftb11lnuMrdCFRVQ71btEHTBkUn5uhIaZkUS-DSISRpMsMqzn2tMCsx5ibZquZw5deM4T2t9gbdM0bL1gyBCrra-pzpFXDLCxtSEKfJ9Z8XPwRIcPrnkmjJGjJKrk_GzuFu2xM-Q0R5bMoCMc9JgW510ZDnNFZFuCRdd-JuoI302YWvBGdH2cBIJEcpleGlyla9EzQ0JVcITNgeo2O3bySzwh38zFzuESiWnNIzZ5npThhX5MZe\"}"}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 2050ms (Views: 48.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-07 02:07:24 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (36.3ms)
+Completed 200 OK in 2189ms (Views: 59.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-07 02:11:27 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (41.1ms)
+Completed 200 OK in 2139ms (Views: 63.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-07 02:13:51 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (30.7ms)
+Completed 200 OK in 2144ms (Views: 49.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-07 02:15:06 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"1000", "add_card"=>"on", "nonce"=>"cnon:CBASEATvi46RGoYrm8N027OVUMg", "nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:551:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":937477,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,0,5s554n0s,2,1;fg,0,nzbhag,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;zz,37qp,73p,232,;zzf,3ro,0,n,0 9p4,0 16ro,629,62s,-n4o8,61n8,-1925;gf,0,3op7;zzf,3rp,3rq,n,ABC;zzf,3ro,3ro,n,0 282,0 2r32,9nr,9oo,-1pqs4,15n61,2485;zzf,3ro,3ro,n,0 22p,0 17sr,398,39r,-170r8,q80o,-250r;zzf,rq4,rq4,n,ABC;zzf,1rrr,1rrr,n,ABC;zz,87,45r,10,;zzf,364,3ro,n,341 457,q0r4 2n9q,2o74,2op8,-7860r,83rpr,-293;gf,0,7936;zzf,3rs,3rr,n,169 8s4,169 8s4,r8,rn,-59on,59on,0;zzf,3ro,3rp,n,ABC;zzf,3s0,3s0,n,ABC;zz,2389,7s,273,;zzf,3n2,272o,32,4r 0,ss9 12sq,s6,999,-740r,65n4,8;zp,199,1r,302,tevqPurpx1;zz,q27,1r5,30r,;gf,0,onro;xx,842,0,nzbhag;ss,7,nzbhag;zp,n7,s3,9r,nzbhag;xq,370;xq,s9;xq,93;xq,6p0;zz,1r3,153,83,nzbhag;zzf,1q3,2722,32,1n 0,17o4 3077,683,4119,-o7np,10qp4,7p;so,40,nzbhag;zp,ns,317,qp,;zz,1064,30n,q7,;zz,10s0,r7,360,fd-perqvgpneq;gf,0,s590;zzf,4r0,2723,32,1n 0,1714 462r,557,3585,-11n30,16s8n,197;zp,843,s8,369,fd-perqvgpneq;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.MKBRQ-SLMclyllYGYNKfxN,,.UjpH1yQ_N3gdN9i4vzr9pR78-h7-cijPd4-WnjFUFsABJrfKhUDtVMb2GzsRnl9jVw19eqqkdnpYGGKK494EXBrgRore7So01Iwfqr2kqJXh9OCifLVnljOK3n-qZlL6Yo6PKK6q0TNF68UUc6a_M9Y9KgO-SqKi7gY0IWxAmmL09CkFbakJv8kyQD95MY54VDXXh_al-l-yMJXX-mNKvTce5p-LfEdD9_FryKggCnLsKqBltWKMHn5bQrAMfDHU\"}"}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 2342ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-07 02:15:14 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (35.7ms)
+Completed 200 OK in 2245ms (Views: 58.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-07 02:15:43 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"2000", "card_nonce"=>"ccof:ouVMxm0zqbAGNB0P3GB", "nonce"=>""}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 1408ms (Views: 52.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-07 02:15:53 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 2270ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-07 18:45:21 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (83.8ms)
+DEPRECATION WARNING: autoprefixer-rails was deprected. Migration guide:
+https://github.com/ai/autoprefixer-rails/wiki/Deprecated (called from _app_views_layouts_application_html_erb__4145501449939665372_47127290368140 at /home/chetan/Documents/square/square_payment/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 9618ms (Views: 5449.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/charges/charge_card" for 127.0.0.1 at 2020-09-07 18:45:43 +0530
+Processing by ChargesController#charge_card as HTML
+  Parameters: {"amount"=>"1000", "card_nonce"=>"ccof:63ffscxVuvn96IBV4GB", "nonce"=>"", "nds-pmd"=>"{\"jvqtrgQngn\":{\"oq\":\"1853:926:1853:1025:1853:1053\",\"wfi\":\"flap-151081\",\"oc\":\"700\",\"fe\":\"1080k1920 24\",\"qvqgm\":\"-330\",\"jxe\":679320,\"syi\":\"snyfr\",\"si\":\"si,btt,zc4,jroz\",\"sn\":\"sn,zcrt,btt,jni\",\"us\":\"p72n0542276072s1\",\"cy\":\"Yvahk k86_64\",\"sg\":\"{\\\"zgc\\\":0,\\\"gf\\\":snyfr,\\\"gr\\\":snyfr}\",\"sp\":\"{\\\"gp\\\":gehr,\\\"ap\\\":gehr}\",\"sf\":\"gehr\",\"jt\":\"s7p260qqor7q8q9s\",\"sz\":\"44nsq3889r7253p4\",\"vce\":\"apvc,0,5s56327p,2,1;fg,0,nzbhag,4,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0,pheerapl,0;zz,15r,130,pr,;zzf,3ro,0,n,35 0,3460 10q5,661,66s,-206p0,rn6,-3q29;zp,pp,1o,10n,pneq_abapr_ppbs:63ssfpkIhia96VOI4TO;zzf,32p,3s8,n,67 o7,876 27p0,n0o,n17,-rrsp,156p3,337;zzf,3ro,3rn,n,q2 176,30q 798,1rn,1rp,-52o4,2ns8,-2q8;zp,48,o4,1q1,fd-perqvgpneq;\",\"ns\":\"\"},\"jg\":\"1.j-669810.1.2.9OyNjTTfIfpigWgm9AvBvt,,.eL1YeL6Qu4erANzMiyFX89FqY71otYP-4Qn7Dr_Hhf6EPXgtc5WxAQ4x7gDE282rqp1-GiR1WK08eq56dxUQslMZG_qlWYhsgBM6t7k4Y5pBeY17DwSckO0ukGUEErkK7SGsr7UJRmXFMwRm9578OKBvV6Htrkwwv-NkjRF2aJn_KxlgC_SkgL2M2aeQFKtLVUi5MpLxW1IC7JALvSsnJZJ1Mi4R_Icvc9HvbPUcmNB0XO1fJ9KE0LpIKqNjrexQ\"}"}
+  Rendering charges/charge_card.html.erb within layouts/application
+  Rendered charges/charge_card.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 1862ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-09-07 18:45:50 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (37.4ms)
+Completed 200 OK in 3606ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+

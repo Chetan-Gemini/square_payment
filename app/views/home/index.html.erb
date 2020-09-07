@@ -1,0 +1,133 @@
+<div class='row'>
+<!-- Begin Payment Form -->
+<div class="sq-payment-form">
+  <div id="sq-ccbox">
+    <form id="nonce-form" novalidate action="/charges/charge_card" method="post">
+      <% if @cards&.size.to_i > 0 %>
+        <div class="sq-field">
+          <label class="sq-label">Amount 
+            <span id="display-amount">$0.0</span>
+          </label>
+          <div>
+            <%= text_field_tag :amount, '', class: 'text-field sq-input', oninput: 'changeAmount()' %>
+          </div>
+<!--           <em> Fees: API 2.90% + $0.30 ($70.60) </em> -->
+        </div>
+        <div> 
+          <div class="sq-field">
+            <h4>Saved Card(s):</h4>
+            <em>Select a saved card for the payment</em>
+          </div>
+          <table>
+            <tbody>
+              <% @cards.each do |card|  %>
+                <% %>
+                <tr>
+                  <td>
+                    <%= radio_button_tag :card_nonce, card[:id] %>
+                  </td>
+                  <td>
+                    <%= "**** **** **** #{card[:last_4]}"%>
+                  </td>
+                  <td style="width:5%;float: right">
+                    <%= card[:card_brand]%>
+                  </td>
+                </tr>              
+              <% end %>
+            </tbody>
+          </table>
+          <button id="sq-creditcard" class="sq-button">
+            Purachase
+          </button>
+          <div class="sq-wallet-divider">
+            <span class="sq-wallet-divider__text">Or</span>
+          </div>
+        <% end %>
+      </div>
+
+      <div class="sq-field">
+        <label class="sq-label">Card Number</label>
+        <div id="sq-card-number"></div>
+      </div>
+      <div class="sq-field-wrapper">
+        <div class="sq-field sq-field--in-wrapper">
+          <label class="sq-label">CVV</label>
+          <div id="sq-cvv"></div>
+        </div>
+        <div class="sq-field sq-field--in-wrapper">
+          <label class="sq-label">Expiration</label>
+          <div id="sq-expiration-date"></div>
+        </div>
+        <div class="sq-field sq-field--in-wrapper">
+          <label class="sq-label">Postal</label>
+          <div id="sq-postal-code"></div>
+        </div>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck1" name='add_card'>
+        <label class="form-check-label" for="gridCheck1">
+          Add this card for the future payment.
+        </label>
+      </div>
+      <br>
+      <em> <strong>NOTE:</strong> We don't save card details in our application. </em>
+
+      <div class="sq-field">
+        <button id="sq-creditcard" class="sq-button" onclick="onGetCardNonce(event)">
+          Purachase
+        </button>
+      </div>
+      <!--
+        After a nonce is generated it will be assigned to this hidden input field.
+      -->
+      <div id="error"></div>
+      <input type="hidden" id="card-nonce" name="nonce">
+    </form>
+  </div>
+</div>
+<!-- End Payment Form -->
+<div class="row">
+  <div class="col-sm-8">
+    <% if @payments&.body&.payments.present? %>
+      <table class="table">
+        <tr>
+          <td style="font-weight: bold">
+            Payment ID
+          </td>
+          <td style="font-weight: bold">
+            Amount
+          </th>
+          <td style="font-weight: bold">
+            Refund Amount
+          </th>
+
+          <td>
+            &nbsp;
+          </td>
+        </tr>
+        <% @payments.body.payments.each do |payment| %>
+          <%#= payment %>
+          <%= form_tag '/charges/refund' do %>
+            <tr>
+              <td style="width:10; text-align: center%">
+                <%=payment[:id]%>
+                <input type="hidden" id="payment_id" name="payment_id", value= "<%=payment[:id]%>">
+              </td>
+              <td style="width:10; text-align: center%">
+                <%= number_to_currency  (payment[:total_money][:amount] / 100.00) %>
+                <input type="hidden" id="total_money" name="total_money", value="<%=payment[:total_money][:amount]%>">
+              </td>
+              <td style="width:10; text-align: center%">
+                <input type="text" id="currency" name="refund_amount", class="text-field sq-input">
+              </td>
+              <td>
+                <%= submit_tag "Refund", class: 'btn btn-primary' %>
+              </td>
+            </tr>
+          <% end %>
+        <% end %>  
+      </table>
+      <% end %>
+    </div>
+  </div>
+</div>
